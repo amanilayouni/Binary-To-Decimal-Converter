@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="conversion.js"></script>
+    <div   class="binary_to_decimal">
+        <header> <b>  Binary to Decimal converter</b></header>
+        <div class="forms">
+        <div class="form1">
+            <FORM>
+                <p>From</p>
+                <SELECT name="nom" size="1">
+                <OPTION>Binary
+                <OPTION>Decimal
+                </SELECT>
+            </FORM>
+        </div>
+        <div class="form2">
+            <FORM>
+                <p>  To</p>
+                <SELECT name="nom" size="1">
+                <OPTION>Decimal
+                <OPTION>Binary
+                </SELECT>
+            </FORM>
+        </div>
+        </div>
+        <p>Enter binary number  : </p>
+        <div  class="inpuut">
+           
+                <input type="number"  id="userInput" >
+                <p class="b">2</p>
+
+        </div>
+        <div class="buttons">
+            <button  onclick="convertToBinary()" class="convert"><span> <b> = </b>  </span>Convert</button>
+            <button onclick = "reseett()"  class="reset" type="reset"> <span> <b>x</b>  </span>Reset</button>
+            <button  class="swap"   >  <span> <img src="https://www.rapidtables.com/lib/icons/glyphicons_all/glyphicons_halflings/glyphicons_halflings_114_retweet.png" alt=""> </span> <a href="index2.html"> Swap </a></button>
+            
+        </div>
+        <p>Decimal Number</p>
+        <div class="result">
+            
+                <input type="text" id="output">
+                <p class="d">10</p>
+        </div>
+
+    </div>
+</body>
+</html>
